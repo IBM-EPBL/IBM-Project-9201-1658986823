@@ -1,0 +1,67 @@
+AUTOAI EXPERIMENT LOG FILE
+
+-  Date: 16/11/2022
+-  Start time: 1:20:57 pm
+-  End time: 1:22:42 pm
+-  Time elapsed: 105 seconds
+
+-  Experiment name: Rainfall_ADS
+-  Data source: district wise rainfall normal.csv
+-  Watson Studio asset: 38ee69b0-e5e8-44f5-8e9b-dc41ddfba6f9
+-  Watson Machine Learning training guid: 647e2cac-3364-446a-a2e3-219b371ceb55
+
+INFO   16/11/2022, 1:21:16 pm   Starting the AutoAI experiment
+INFO   16/11/2022, 1:21:24 pm   Downloading source data
+INFO   16/11/2022, 1:21:25 pm   Reading training data
+INFO   16/11/2022, 1:21:28 pm   Setting default preprocessor parameters
+INFO   16/11/2022, 1:21:29 pm   Selecting algorithms for pipeline generation using 10% of training data. Discarding underperforming algorithms and keeping the top 2 algorithms.
+INFO   16/11/2022, 1:21:32 pm   Starting model optimization for pipeline P1
+INFO   16/11/2022, 1:21:32 pm   Preparing to optimize model
+INFO   16/11/2022, 1:21:32 pm   Starting base pipeline generation for pipeline P1
+INFO   16/11/2022, 1:21:32 pm   Starting feature importance analysis for pipeline P1
+INFO   16/11/2022, 1:21:33 pm   Completed feature importance analysis for pipeline P1
+INFO   16/11/2022, 1:21:33 pm   Completed base pipeline generation for pipeline P1
+INFO   16/11/2022, 1:21:38 pm   Preparing to optimize hyperparameters
+INFO   16/11/2022, 1:21:38 pm   Starting hyperparameter optimization for pipeline P2
+INFO   16/11/2022, 1:21:38 pm   Optimizing model hyperparameters
+INFO   16/11/2022, 1:21:38 pm   Starting feature importance analysis for pipeline P2
+INFO   16/11/2022, 1:21:39 pm   Completed feature importance analysis for pipeline P2
+INFO   16/11/2022, 1:21:39 pm   Completed hyperparameter optimization for pipeline P2
+INFO   16/11/2022, 1:21:43 pm   Started feature engineering for pipeline P3
+INFO   16/11/2022, 1:21:56 pm   Transforming data
+INFO   16/11/2022, 1:21:56 pm   Starting feature importance analysis for pipeline P3
+INFO   16/11/2022, 1:21:57 pm   Completed feature importance analysis for pipeline P3
+INFO   16/11/2022, 1:21:57 pm   Completed feature engineering for pipeline P3
+INFO   16/11/2022, 1:22:00 pm   Starting hyperparameter optimization for pipeline P4
+INFO   16/11/2022, 1:22:00 pm   Preparing to optimize hyperparameters
+INFO   16/11/2022, 1:22:00 pm   Optimizing model hyperparameters
+INFO   16/11/2022, 1:22:01 pm   Starting feature importance analysis for pipeline P4
+INFO   16/11/2022, 1:22:01 pm   Completed feature importance analysis for pipeline P4
+INFO   16/11/2022, 1:22:01 pm   Completed hyperparameter optimization for pipeline P4
+INFO   16/11/2022, 1:22:06 pm   Completed model optimization
+INFO   16/11/2022, 1:22:06 pm   Starting model optimization for pipeline P5
+INFO   16/11/2022, 1:22:06 pm   Preparing to optimize model
+INFO   16/11/2022, 1:22:06 pm   Starting base pipeline generation for pipeline P5
+INFO   16/11/2022, 1:22:06 pm   Starting feature importance analysis for pipeline P5
+INFO   16/11/2022, 1:22:06 pm   Completed feature importance analysis for pipeline P5
+INFO   16/11/2022, 1:22:06 pm   Completed base pipeline generation for pipeline P5
+INFO   16/11/2022, 1:22:10 pm   Starting hyperparameter optimization for pipeline P6
+INFO   16/11/2022, 1:22:10 pm   Preparing to optimize hyperparameters
+INFO   16/11/2022, 1:22:10 pm   Optimizing model hyperparameters
+INFO   16/11/2022, 1:22:10 pm   Starting feature importance analysis for pipeline P6
+INFO   16/11/2022, 1:22:10 pm   Completed feature importance analysis for pipeline P6
+INFO   16/11/2022, 1:22:11 pm   Completed hyperparameter optimization for pipeline P6
+INFO   16/11/2022, 1:22:14 pm   Started feature engineering for pipeline P7
+INFO   16/11/2022, 1:22:29 pm   Transforming data
+INFO   16/11/2022, 1:22:29 pm   Starting feature importance analysis for pipeline P7
+INFO   16/11/2022, 1:22:29 pm   Completed feature importance analysis for pipeline P7
+INFO   16/11/2022, 1:22:29 pm   Completed feature engineering for pipeline P7
+INFO   16/11/2022, 1:22:33 pm   Starting hyperparameter optimization for pipeline P8
+INFO   16/11/2022, 1:22:33 pm   Preparing to optimize hyperparameters
+INFO   16/11/2022, 1:22:33 pm   Optimizing model hyperparameters
+INFO   16/11/2022, 1:22:37 pm   Starting feature importance analysis for pipeline P8
+INFO   16/11/2022, 1:22:38 pm   Completed feature importance analysis for pipeline P8
+INFO   16/11/2022, 1:22:38 pm   Completed hyperparameter optimization for pipeline P8
+INFO   16/11/2022, 1:22:42 pm   Completed model optimization
+INFO   16/11/2022, 1:22:42 pm   Completed data training
+INFO   16/11/2022, 1:22:42 pm   AutoAI experiment completed.
