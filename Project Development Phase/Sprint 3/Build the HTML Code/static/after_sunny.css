@@ -1,0 +1,13 @@
+body {
+    background-color: #e29c7a;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 2 rem;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    font-size: 2em;
+}
