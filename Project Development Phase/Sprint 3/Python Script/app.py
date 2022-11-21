@@ -8,7 +8,7 @@ import pickle
 
 
 app = Flask(__name__, template_folder="template")
-models = pickle.load(open("./models/cat.pkl", "rb"))
+models = pickle.load(open("./models/rainfall.pkl", "rb"))
 print("Model Loaded")
 
 @app.route("/",methods=['GET'])
